@@ -29,15 +29,12 @@ window.addEventListener('scroll', () => {
 		header.classList.add('header--fixed');
       burger.classList.add('burger--fixed');
       colorLink.classList.add('item_link-fixed');
-      // arrow.classList.add('arrow-fixed')
       arrow.classList.add('arrow-fixed')
 	} else {
 		header.classList.remove('header--fixed');
 		burger.classList.remove('burger--fixed');
       colorLink.classList.remove('item_link-fixed');
-      // arrow.classList.remove('arrow-img-fixed')
       arrow.classList.add('arrow')
-		// pageTitle.classList.remove('title-none');
 		first.style.marginTop = null;
 	}
 
@@ -46,9 +43,6 @@ window.addEventListener('scroll', () => {
       burger.classList.remove('burger--fixed');
       colorLink.classList.remove('item_link-fixed');
       arrow.classList.remove('arrow-img-fixed')
-      // pageTitle.classList.remove('title-none');
-      //   imgLogo.classList.remove('logo-img-scroll');
-      //   arrow.classList.remove('arrow-fixed');
 		first.style.marginTop = null;
 	}
 
@@ -66,7 +60,7 @@ openPopUp.addEventListener('click', function(e){
    header.classList.remove('header--fixed');
 })
 
- popUpClose.addEventListener('click', () => {
+popUpClose.addEventListener('click', () => {
    popUp.classList.remove('active');
    header.classList.add('header--fixed');
- })
+})

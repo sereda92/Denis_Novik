@@ -1,5 +1,5 @@
 /*Обнуление*/
-* {
+/* * {
     padding: 0;
     margin: 0;
     border: 0;
@@ -86,7 +86,7 @@ h5,
 h6 {
     font-size: inherit;
     font-weight: 400;
-}
+} */
 
 /*--------------------*/
 
@@ -95,7 +95,7 @@ h6 {
 /* font-family: 'Gilroy-Medium', sans-serif; */
 
 /* ---------------------------------------------------------- */
-._container {
+/* ._container {
     position: relative;
     max-width: 940px;
     margin: 0 auto;
@@ -103,15 +103,11 @@ h6 {
     box-sizing: content-box;
 }
 
-/* ---------------------------------------------------------- */
 .header{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 90px; */
-    /* background-color: #1F1F1F; */
-    /* display: none; */
 }
 .header_container{
     position: relative;
@@ -146,7 +142,6 @@ h6 {
     position: fixed;
     width: 100%;
     color: #ffffff;
-    /* height: 89px; */
 	left: 0;
 	top: 0;
     z-index: 20;
@@ -159,9 +154,6 @@ h6 {
 }
 .arrow {
     display: block;
-}
-.arrov-link {
-
 }
 
 .arrow-img{
@@ -188,25 +180,11 @@ h6 {
     background-color: rgba(130, 130, 130,.6);
     padding: 10px;
     border-radius: 50%;
-}
-
-/* .arrow-up{
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-    transform: rotate(-90deg);
-    transition: all .3s ease;
-    width: 50px;
-    height: 50px;
-    background-color: rgba(130, 130, 130,.6);
-    padding: 10px;
-    border-radius: 50%;
 } */
+
 /* --------------------------MAIN-PAGE-------------------------------- */
-.main-page {
+/* .main-page {
     position: relative;
-    /* top: 90px; */
-    /* left: 0; */
     color: #070707;
     margin-top: 89px;
 }
@@ -273,12 +251,12 @@ img {
 
 .main_image {
     width: 100%;
-}
+} */
 
 /* -------------------------------------------------------------- */
 /* ---------------------BURGER-MENU------------------------------ */
 /* -------------------------------------------------------------- */
-.burger-menu {
+/* .burger-menu {
     display: none;
 }
 
@@ -320,7 +298,6 @@ img {
 
 .menu-btn {
     display: flex;
-    /* align-items: center; */
     position: absolute;
     right: 15px;
     width: 26px;
@@ -423,12 +400,12 @@ img {
     padding: 0;
     background-color: rgba(0, 0, 0,.7);
     transition: all .6s ease;
-}
+} */
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* --------------------------MAIN-INFO-------------------------------- */
-.main_info {
+/* .main_info {
     color: #070707;
     text-align: center;
     background: #F6F6F6;
@@ -450,10 +427,10 @@ img {
 .info-title h2 {
     font-size: 34px;
     line-height: calc(42 / 34 * 100%);
-}
+} */
 
 /* --------------------------MAIN-SKILL-------------------------------- */
-.main-skill {
+/* .main-skill {
     color: #070707;
 }
 
@@ -504,10 +481,10 @@ img {
     margin-top: 41px;
     height: 26px;
     width: 166px;
-}
+} */
 
 /* --------------------------SECTION-PORTFOLIO-------------------------------- */
-.section-portfolio {
+/* .section-portfolio {
     background: #F6F6F6;
 }
 
@@ -545,21 +522,15 @@ img {
 
 .portfolio-exemple_two {
     margin: 99px 0 44px 0;
-}
+} */
 
 /* --------------------------SECTION-CONTACT-------------------------------- */
-.section-contact {
+/* .section-contact {
     position: relative;
     color: #070707;
     padding: 114px 0 85px 0;
 }
-.send-message{
-    /* position: fixed; */
-    /* z-index: 5000; */
-    /* background-color: rgb(0, 0, 0); */
-    /* width: 100%; */
-    /* height: 100vh; */
-}
+
 .section-contact-container h2 {
     font-size: 34px;
     line-height: calc(42 / 34 * 100%);
@@ -664,19 +635,17 @@ img {
     margin-top: 20px;
     border-radius: 10px 10px 0 0;
 }
-.form-wrapper input:not(:last-child){
-    /* margin-bottom: 5px; */
-}
+
 .form-wrapper textarea{
     background: none;
     padding: 5px;
     border-radius: 0 0 10px 10px;
     resize:none;
     color: #ffffff;
-}
+} */
 
 /* --------------------------FOOTER-------------------------------- */
-.section-footer {
+/* .section-footer {
     padding-bottom: 123px;
 }
 
@@ -711,10 +680,10 @@ img {
 
 .header_burger {
     display: none;
-}
+} */
 
 /* ---------------------------------------------------- */
-@media (max-width:768px) {
+/* @media (max-width:768px) {
 
     .header_menu {
         display: none;
@@ -783,7 +752,6 @@ img {
 }
 
 @media (max-width:375px) {
-    .footer-link {}
 
     .footer-link:not(:first-child) {
         margin-left: 50px;
@@ -817,7 +785,7 @@ img {
     .footer-link:not(:first-child) {
         margin-left: 30px;
     }
-}
+} */
 
 
 

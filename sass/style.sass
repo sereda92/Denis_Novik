@@ -143,12 +143,21 @@ body
         font-size: $fs-16
         line-height: calc(20 / 16 * 100%)
         color: $color-dark-grey
+        transition: $speed-transition
+
+.lang__active
+    border-left: 2px solid $color-dark-grey
 
 .main-page_translate
     a
-        &:hover 
+        &:hover
             color: $color-black
-            transition: $speed-transition
+
+    
+.lang__active
+    &:hover
+        border-left: 2px solid $color-black
+
 
 .main_title
     display: block

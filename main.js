@@ -16,7 +16,6 @@ const header = document.querySelector('.header');
 const first = document.querySelector('.page_title');
 const burger = document.querySelector('.burger-menu');
 const colorLink = document.querySelectorAll('.item_link');
-const arrow = document.querySelector('.arrow-img');
 
 const headerHeight = header.offsetHeight;
 const firstHeight = first.offsetHeight;
@@ -28,21 +27,18 @@ window.addEventListener('scroll', () => {
 	if (scrollDistance >= firstHeight + headerHeight) {
 		header.classList.add('header--fixed');
       burger.classList.add('burger--fixed');
-      colorLink.classList.add('item_link-fixed');
-      arrow.classList.add('arrow-fixed')
+      colorLink.forEach(link => link.classList.add('item_link-fixed'));
 	} else {
 		header.classList.remove('header--fixed');
 		burger.classList.remove('burger--fixed');
-      colorLink.classList.remove('item_link-fixed');
-      arrow.classList.add('arrow')
+      colorLink.forEach(link => link.classList.remove('item_link-fixed'));
 		first.style.marginTop = null;
 	}
 
 	if (scrollDistance === 0) {
 		header.classList.remove('header--fixed');
       burger.classList.remove('burger--fixed');
-      colorLink.classList.remove('item_link-fixed');
-      arrow.classList.remove('arrow-img-fixed')
+      colorLink.forEach(link => link.classList.remove('item_link-fixed'));
 		first.style.marginTop = null;
 	}
 

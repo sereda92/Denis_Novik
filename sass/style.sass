@@ -2,9 +2,13 @@
 @import 'variables'
     
 body
-
+    
     // background-color: $color-black
     
+
+
+
+
 ._container
     position: relative
     max-width: 940px
@@ -145,18 +149,19 @@ body
         color: $color-dark-grey
         transition: $speed-transition
 
-.lang__active
-    border-left: 2px solid $color-dark-grey
 
 .main-page_translate
     a
         &:hover
             color: $color-black
 
-    
 .lang__active
-    &:hover
-        border-left: 2px solid $color-black
+    border-left: 2px solid $color-black
+    color: $color-black !important
+
+// .lang__active
+    // &:hover
+        // border-left: 2px solid $color-black
 
 
 .main_title
@@ -401,9 +406,9 @@ img
 
 .exemple-link 
     a
+        transition: $speed-transition
         &:hover 
             color: $color-dark-grey
-            transition: $speed-transition
 
 .exemple-link
     a 
@@ -444,12 +449,12 @@ img
         color: $color-white
         border-radius: 25px
         margin-top: 29px
+        transition: $speed-transition
 
 .section-contact-container
     button
         &:hover 
             background: $color-dark-grey
-            transition: $speed-transition
 
 .contact-item 
     text-align: center
@@ -472,7 +477,6 @@ img
     top: 10px
     right: 10px
     color: $color-white
-    border: 1px solid $color-white
     padding: 5px
     border-radius: 100px
     cursor: pointer
@@ -550,10 +554,11 @@ img
 .footer-icon 
     width: 40px
     height: 40px
-
-.footer-icon:hover 
-    opacity: .5
     transition: $speed-transition
+
+.footer-icon
+    &:hover 
+        opacity: .5
 
 .footer-text 
     margin-top: 45px
@@ -565,9 +570,6 @@ img
 
 .header_burger 
     display: none
-
-
-
 
 
 
